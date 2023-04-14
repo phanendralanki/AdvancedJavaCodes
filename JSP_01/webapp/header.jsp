@@ -7,6 +7,9 @@
 <title>Header page</title>
 </head>
 <body>
-	<h1 style="background-color:green;color:white;padding:20px">Header Page</h1>
+	<div style="background-color:green;color:white;padding:20px">
+	<h1>Header Page</h1>
+	<p>Usage of Directives... page,include</p>
+	</div>
 </body>
 </html>

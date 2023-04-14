@@ -11,8 +11,18 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Page Directive</title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+</style>
 </head>
 <body>
+
+<!-- include directive -->
+<%@include file="header.jsp" %>
+<!-- include directive -->
 
 <h2>Random number</h2>
 <%
