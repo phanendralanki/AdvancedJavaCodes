@@ -96,3 +96,17 @@
 0:0:0:0:0:0:0:1 - - [14/Apr/2023:14:17:12 +0530] "GET /JSP_01/PageDirective.jsp HTTP/1.1" 200 540
 0:0:0:0:0:0:0:1 - - [14/Apr/2023:14:17:33 +0530] "GET /JSP_01/PageDirective.jsp HTTP/1.1" 200 554
 0:0:0:0:0:0:0:1 - - [14/Apr/2023:14:18:15 +0530] "GET /JSP_01/PageDirective.jsp HTTP/1.1" 200 609
+127.0.0.1 - - [14/Apr/2023:15:16:03 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:16:03 +0530] "GET /JSP_01/ HTTP/1.1" 200 305
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:16:15 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 6765
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:20:50 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:20:51 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:20:51 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:21:01 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:21:02 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:21:03 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 500 2443
+127.0.0.1 - - [14/Apr/2023:15:22:50 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:22:51 +0530] "GET /JSP_01/ HTTP/1.1" 200 305
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:23:04 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:24:16 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 200 494
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:15:24:41 +0530] "GET /JSP_01/TagLibDirective.jsp HTTP/1.1" 200 462
