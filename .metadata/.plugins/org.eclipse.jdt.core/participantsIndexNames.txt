@@ -1,5 +1,11 @@
 INDEX VERSION 1.131
+D:\java\Advanced Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3271103750.index
+\JSP-JSTL-Directive\src\main\java
+D:\java\Advanced Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1818507359.index
+\JSP-Directive-APP\src\main\java
 D:\java\Advanced Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2276858462.index
 \JSP_01\src\main\java
+D:\java\Advanced Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4244913702.index
+\JSP-JSTL-Directive\src\main\java
 D:\java\Advanced Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1124409092.index
 \JSP_01\src\main\java

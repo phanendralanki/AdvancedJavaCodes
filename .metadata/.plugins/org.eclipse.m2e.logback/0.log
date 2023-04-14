@@ -3,3 +3,12 @@
 2023-04-13 22:28:36,782 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-04-13 22:50:56,010 [Worker-28: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-04-14 12:34:28,293 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-14 12:54:59,211 [Worker-45: Creating project "JSP-Directive-APP"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:JSP-Directive-APP:0.0.1-SNAPSHOT @ D:\java\Advanced Java\JSP-Directive-APP\pom.xml.
+2023-04-14 12:55:00,398 [Worker-45: Creating project "JSP-Directive-APP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSP-Directive-APP/src/main/java
+2023-04-14 12:55:00,399 [Worker-45: Creating project "JSP-Directive-APP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JSP-Directive-APP/src/main/resources
+2023-04-14 12:55:00,400 [Worker-45: Creating project "JSP-Directive-APP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSP-Directive-APP/src/test/java
+2023-04-14 12:55:00,400 [Worker-45: Creating project "JSP-Directive-APP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JSP-Directive-APP/src/test/resources
+2023-04-14 12:55:01,201 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-14 12:55:01,209 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-14 12:55:01,213 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-14 12:55:01,215 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

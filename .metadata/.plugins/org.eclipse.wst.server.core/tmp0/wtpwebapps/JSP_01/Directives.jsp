@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 
-<!-- page directive -->
+<!-- @page directive -->
 <%@page import="java.util.*"%>
 <%@page session="false"%>
 <%@page isELIgnored="false"%>
 <%@page errorPage="error.jsp"%>
-<!-- page directive -->
+<!-- @page directive -->
 
 <!DOCTYPE html>
 <html>
@@ -20,12 +20,12 @@
 	<%@include file="header.jsp" %>
 	<!-- include directive -->
 
-	<!-- page directive -->
+	<!-- @page directive -->
 	<h1>
 		Time :
 		<%=new Date().toString()%>
 	</h1>
-	<!-- page directive -->
+	<!-- @page directive -->
 	
 	
 </body>
