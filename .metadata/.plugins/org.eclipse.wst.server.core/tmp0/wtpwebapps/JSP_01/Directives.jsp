@@ -15,6 +15,11 @@
 <title>Directives Examples</title>
 </head>
 <body>
+
+	<!-- include directive -->
+	<%@include file="header.jsp" %>
+	<!-- include directive -->
+
 	<!-- page directive -->
 	<h1>
 		Time :
@@ -22,8 +27,6 @@
 	</h1>
 	<!-- page directive -->
 	
-	<!-- include directive -->
 	
-	<!-- include directive -->
 </body>
 </html>
