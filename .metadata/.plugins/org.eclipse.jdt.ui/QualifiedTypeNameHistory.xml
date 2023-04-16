@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="jakarta.servlet.jsp.tagext.TagSupport"/>
     <fullyQualifiedTypeName name="jakarta.servlet.jsp.JspWriter"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.Filter"/>
 </qualifiedTypeNameHistroy>
