@@ -1,14 +1,14 @@
 package com.code;
 
 public class Student {
-	private String studentId;
+	private int studentId;
 	private String studentName;
 	private String studentMobile;
 	private String studentAge;
-	public String getStudentId() {
+	public int getStudentId() {
 		return studentId;
 	}
-	public void setStudentId(String studentId) {
+	public void setStudentId(int studentId) {
 		this.studentId = studentId;
 	}
 	public String getStudentName() {
@@ -29,7 +29,7 @@ public class Student {
 	public void setStudentAge(String studentAge) {
 		this.studentAge = studentAge;
 	}
-	public Student(String studentId, String studentName, String studentMobile, String studentAge) {
+	public Student(int studentId, String studentName, String studentMobile, String studentAge) {
 		super();
 		this.studentId = studentId;
 		this.studentName = studentName;
