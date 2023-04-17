@@ -18,7 +18,19 @@ public class Start {
 			
 			if(c==1) {
 				//add student
+				System.out.println("Enter user name: ");
+				String name = br.readLine();
 				
+				System.out.println("Enter user mobile: ");
+				String mobile = br.readLine();
+				
+				System.out.println("Enter user age: ");
+				String age = br.readLine();
+				
+				//create student object to store student
+				Student st = new Student(name,mobile,age);
+				
+				System.out.println(st);
 			}
 			else if(c==2) {
 				//delete
@@ -27,11 +39,12 @@ public class Start {
 			}else if(c==4) {
 				//update
 			}else if(c==5){
-				//exit
+				break;
 			}else {
 				//invalid
 			}
 		}
+		System.out.println("Thank you for using");
 		
 	}
 }

@@ -29,18 +29,26 @@ public class Student {
 	public void setStudentAge(String studentAge) {
 		this.studentAge = studentAge;
 	}
-	public StudentClass(String studentId, String studentName, String studentMobile, String studentAge) {
+	public Student(String studentId, String studentName, String studentMobile, String studentAge) {
 		super();
 		this.studentId = studentId;
 		this.studentName = studentName;
 		this.studentMobile = studentMobile;
 		this.studentAge = studentAge;
 	}
-	public StudentClass(String studentName, String studentMobile, String studentAge) {
+	public Student(String studentName, String studentMobile, String studentAge) {
 		super();
 		this.studentName = studentName;
 		this.studentMobile = studentMobile;
 		this.studentAge = studentAge;
+	}
+	public Student() {
+		super();
+	}
+	@Override
+	public String toString() {
+		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentMobile=" + studentMobile
+				+ ", studentAge=" + studentAge + "]";
 	}
 	
 	
