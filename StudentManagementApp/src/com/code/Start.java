@@ -30,7 +30,9 @@ public class Start {
 				//create student object to store student
 				Student st = new Student(name,mobile,age);
 				
-				System.out.println(st);
+				//System.out.println(st);
+				
+				
 			}
 			else if(c==2) {
 				//delete
