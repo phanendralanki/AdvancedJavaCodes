@@ -42,10 +42,23 @@ public class Start {
 			}
 			else if(c==2) {
 				//delete
+				System.out.println("Enter student id to delete");
+				int id = Integer.parseInt(br.readLine());
+				
+				boolean f = StudentDao.deleteStudent(id);
+				if(f) {
+					System.out.println("Deleted");
+				}else {
+					System.out.println("error in deleting student");
+				}
 			}else if(c==3) {
 				//display
+				StudentDao.showAllStudents();
 			}else if(c==4) {
 				//update
+				int id = Integer.parseInt(br.readLine());
+				System.out.println("Enter id to update: ");
+				StudentDao.showStudent(id);
 			}else if(c==5){
 				break;
 			}else {
