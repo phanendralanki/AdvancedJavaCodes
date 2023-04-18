@@ -77,21 +77,7 @@ public class StudentDao {
 				Connection con = ConnectionProvider.createConnection();
 				String query = "select *from students where id =? ";
 				PreparedStatement pst = con.prepareStatement(query);
-				ResultSet rs = pst.executeQuery(query);
-				while(rs.next()) {
-					
-					String name = rs.getString(2);
-					String mobile = rs.getString(3);
-					String age = rs.getString(4);
-					
-					System.out.println("*********************");
-					System.out.println("\tStudent Details");
-					
-					System.out.println("name: "+name);
-					System.out.println("mobile: "+mobile);
-					System.out.println("age: "+age);
-					System.out.println("*********************");
-				}
+				pst.setString(1, st.getStudentName());
 				
 				
 			}catch(Exception e) {

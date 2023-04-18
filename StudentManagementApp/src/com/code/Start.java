@@ -56,8 +56,8 @@ public class Start {
 				StudentDao.showAllStudents();
 			}else if(c==4) {
 				//update
-				int id = Integer.parseInt(br.readLine());
 				System.out.println("Enter id to update: ");
+				int id = Integer.parseInt(br.readLine());
 				StudentDao.showStudent(id);
 			}else if(c==5){
 				break;
