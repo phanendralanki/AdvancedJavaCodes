@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class ConnectionProvider {
 	static Connection con;
-	public void createConnection() {
+	public static Connection createConnection() {
 		try {
 		//load the driver
 		Class.forName("com.mysql.jdbc.Driver");
@@ -16,5 +16,6 @@ public class ConnectionProvider {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
+		return con;
 	}
 }
