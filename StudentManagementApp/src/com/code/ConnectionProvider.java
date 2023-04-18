@@ -8,7 +8,7 @@ public class ConnectionProvider {
 	public static Connection createConnection() {
 		try {
 		//load the driver
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		//create the connection
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/stuapp","root","user");
 		

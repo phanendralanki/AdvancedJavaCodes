@@ -32,6 +32,12 @@ public class Start {
 				
 				System.out.println(st);
 				
+				boolean f = StudentDao.insertStudent(st);
+				if(f) {
+					System.out.println("student data inserted");
+				}else {
+					System.out.println("there is a problem");
+				}
 				
 			}
 			else if(c==2) {
