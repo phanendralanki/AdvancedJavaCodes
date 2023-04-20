@@ -3,7 +3,7 @@ package com.dao;
 import java.sql.*;
 
 import com.bean.Student;
-import com.connection.DBConnect;
+//import com.connection.DBConnect;
 
 public class StudentDao {
 
@@ -41,6 +41,29 @@ public class StudentDao {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
+		return f;
+	}
+	
+	public boolean editStudent(Student st) {
+		boolean f = false;
+		
+		try {
+			PreparedStatement ps = conn.prepareStatement("update student set sname=?,mobile=?,age=? where id=?");
+			ps.setString(1, st.getName());
+			ps.setString(2, st.getMobile());
+			ps.setString(3, st.getAge());
+			ps.setInt(4, st.getId());
+			
+			int i = ps.executeUpdate();
+			if(i==1) {
+				f = true;
+			}else {
+				
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
 		return f;
 	}
 	
