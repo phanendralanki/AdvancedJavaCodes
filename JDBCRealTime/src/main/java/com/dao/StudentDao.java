@@ -25,12 +25,12 @@ public class StudentDao {
 	public boolean dataInsert(Student st) {
 		boolean f = false;
 		try {
-			String query = "insert into students(sname,mobile,age) values(?,?,?)";
+			String query = "insert into students(id,sname,mobile,age) values(?,?,?,?)";
 			PreparedStatement ps = conn.prepareStatement(query);
-			
-			ps.setString(1, st.getName());
-			ps.setString(2, st.getMobile());
-			ps.setString(3, st.getAge());
+			ps.setInt(1, st.getId());
+			ps.setString(2, st.getName());
+			ps.setString(3, st.getMobile());
+			ps.setString(4, st.getAge());
 			
 			int i = ps.executeUpdate();
 			
