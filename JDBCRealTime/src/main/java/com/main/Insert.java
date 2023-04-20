@@ -2,14 +2,25 @@ package com.main;
 import com.bean.*;
 import com.connection.DBConnect;
 import com.dao.StudentDao;
+
+import java.util.*;
 public class Insert {
 	public static void main(String[] args) {
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter id");
+		int id = sc.nextInt();
+		System.out.println("Enter name");
+		String name = sc.next();
+		System.out.println("Enter mobile");
+		String mobile = sc.next();
+		System.out.println("Enter age");
+		String age = sc.next();
 		Student st = new Student();
-		st.setId(1);
-		st.setName("phanendra");
-		st.setMobile("7013634111");
-		st.setAge("21");
+		st.setId(id);
+		st.setName(name);
+		st.setMobile(mobile);
+		st.setAge(age);
+		
 		
 		StudentDao dao = new StudentDao(DBConnect.getConnection());
 		boolean f = dao.dataInsert(st);
