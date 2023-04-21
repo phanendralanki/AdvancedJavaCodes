@@ -48,7 +48,7 @@ public class StudentDao {
 		boolean f = false;
 		
 		try {
-			PreparedStatement ps = conn.prepareStatement("update student set sname=?,mobile=?,age=? where id=?");
+			PreparedStatement ps = conn.prepareStatement("update students set sname=?,mobile=?,age=? where id=?");
 			ps.setString(1, st.getName());
 			ps.setString(2, st.getMobile());
 			ps.setString(3, st.getAge());
