@@ -15,13 +15,15 @@ public class Insert {
 		String mobile = sc.next();
 		System.out.println("Enter age");
 		String age = sc.next();
+		
+		//setting the data to beans
 		Student st = new Student();
 		st.setId(id);
 		st.setName(name);
 		st.setMobile(mobile);
 		st.setAge(age);
 		
-		
+		//getting the method from dao
 		StudentDao dao = new StudentDao(DBConnect.getConnection());
 		boolean f = dao.dataInsert(st);
 		
