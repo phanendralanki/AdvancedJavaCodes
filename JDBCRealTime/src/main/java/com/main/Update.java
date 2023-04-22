@@ -11,7 +11,7 @@ public class Update {
 		Student st = new Student();
 		
 		st.setId(1);
-		st.setName("Gundu chandra pavan");
+		st.setName("chandra pavan");
 		st.setMobile("8008128131");
 		st.setAge("25");
 		
