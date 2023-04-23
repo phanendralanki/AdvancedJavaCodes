@@ -16,4 +16,8 @@
     <fullyQualifiedTypeName name="com.bean.Student"/>
     <fullyQualifiedTypeName name="com.connection.DBConnect"/>
     <fullyQualifiedTypeName name="com.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.conn.DBConnect"/>
+    <fullyQualifiedTypeName name="com.entity.Contact"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
