@@ -20,6 +20,7 @@ public class ContactDao {
 			PreparedStatement ps = conn.prepareStatement("insert into contact(name,phone) values(?,?)");
 			ps.setString(1, c.getName());
 			ps.setString(2, c.getPhone());
+		
 			int i = ps.executeUpdate();
 			if(i==1) {
 				f = true;
